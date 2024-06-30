@@ -1,0 +1,50 @@
+* {
+    background-color: rgb(191, 168, 244)
+}
+
+.header {
+    text-align: center;
+    font-family: fantasy;
+}
+
+.header h2, 
+.ingr h3,
+.pasos h3 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.ingr {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ff {
+    text-align: center;
+    margin-top: 40px;
+}
+
+img {
+    border: 12px solid rgb(142, 24, 238);
+    border-radius: 90px;
+}
+
+.und {
+    border: 5px dashed whitesmoke;
+    border-radius: 40px;
+    padding: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.pasos ol > li {
+    color: rgb(90, 41, 251);
+}
+
+.desc {
+    border: 5px dashed whitesmoke;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 40px;
+}

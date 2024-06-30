@@ -1,0 +1,58 @@
+* {
+    background-color: rgb(230, 203, 150);
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    font-family: monospace;
+    font-weight: 900;
+}
+
+img {
+    border: 6px solid black;
+    border-radius: 10px;
+    width: 40vw;
+}
+
+a {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+/* Sin apuntar */
+a { 
+    color: lightseagreen;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    border: 3px solid lightseagreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div {
+    margin-top: 30px;
+    border: 3px dashed black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 2vw;
+    justify-content: space-evenly;
+}
+
+a:hover {
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    color: red;
+}
+
+a:active{
+    border: 3px solid violet;
+    border-radius: 10px;
+    padding: 10px;
+    color: violet;
+}
